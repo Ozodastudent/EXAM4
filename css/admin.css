@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  padding: 140px 54px 54px 54px;
+}
+.head_part {
+  position: absolute;
+  top: 40px;
+  right: 74px;
+  display: flex;
+}
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 140%;
+  display: flex;
+  color: #000000;
+}
+.logout_btn {
+  padding: 5px 30px;
+  background: #f44334;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.box_one {
+  padding: 16px;
+  width: 50%;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.31);
+}
+.long_card {
+  padding: 28px;
+  width: 600px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.card_text {
+  width: 465px;
+}
+.card_text_title {
+  color: #344767;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card_text_desc {
+  color: #7b809a;
+  font-size: 12px;
+}
+.card_icons {
+  margin-left: 30px;
+  width: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.my_icon {
+  margin-right: 5px;
+}
+.edit {
+  /* margin-right: 30px; */
+  margin-left: 20px;
+}
+.save {
+  margin-left: 80px;
+}
+/* box two  */
+.box_two {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.31);
+}
